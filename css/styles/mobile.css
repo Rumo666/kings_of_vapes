@@ -1,0 +1,80 @@
+@media screen and (max-width: 1025px) {
+  nav,
+  footer {
+    padding: 0 5%; }
+
+  main {
+    padding: 2em 5%; } }
+@media screen and (max-width: 925px) {
+  body {
+    font-size: 1em; } }
+@media screen and (max-width: 750px) {
+  #page-container {
+    height: auto; }
+
+  #page-bottom {
+    height: 300px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0; }
+
+  #nav-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+  #nav-flag {
+    position: absolute;
+    left: -5%;
+    top: 0;
+    width: 110%;
+    background-color: orange; }
+
+  #nav-flag-inner {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    #nav-flag-inner div br {
+      display: none; }
+    #nav-flag-inner i {
+      font-size: 2.5em; }
+    #nav-flag-inner em {
+      display: none; }
+
+  .nav-flag-inner-snipe,
+  .nav-flag-inner-snipe-right {
+    bottom: -2em; }
+
+  #nav-title {
+    width: 100%;
+    padding-top: 2.5em; }
+
+  #nav-phone {
+    width: 100%; }
+
+  #nav-phone-inner {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 1em; }
+
+  #maparea span i {
+    display: none; }
+  #maparea span em {
+    display: none; }
+
+  footer {
+    display: none; } }
+@media screen and (max-width: 450px) {
+  #nav-title {
+    padding-top: 2em; }
+    #nav-title b {
+      width: 100%;
+      display: inline; }
+    #nav-title em {
+      display: none; } }
+
+/*# sourceMappingURL=mobile.css.map */
